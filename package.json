@@ -1,0 +1,22 @@
+{
+	"name": "back-to-static-creative-coding",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test:unit": "vitest"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.53.1",
+		"vite": "^3.2.4",
+		"vitest": "^0.25.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"gsap": "^3.11.3"
+	}
+}
