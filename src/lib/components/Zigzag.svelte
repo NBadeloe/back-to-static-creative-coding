@@ -1,9 +1,12 @@
+<!-- <script>
+   export const prerender = true;
+</script> -->
 <main>
   <h1>My favorite Albums</h1>
   <section class="album-grid">
     <section class="album-card">
       <section class="album-img">
-        <img src="./assets/albums/6-feet-beneath-the-moon.jpg" alt="" />
+        <img src="./assets/albums/6-feet-beneath-the-moon.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Easy Easy</li>
@@ -31,7 +34,7 @@
 
     <section class="album-card">
       <section class="album-img">
-        <img src="/assets/albums/1992-deluxe.jpg" alt="" />
+        <img src="/assets/albums/1992-deluxe.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Bart Simpson</li>
@@ -54,7 +57,7 @@
 
     <section class="album-card">
       <section class="album-img">
-        <img src="assets/albums/call-me-if-you-get-lost.jpg" alt="" />
+        <img src="assets/albums/call-me-if-you-get-lost.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Sir Baudelaire ft. DJ Drama</li>
@@ -86,7 +89,7 @@
 
     <section class="album-card">
       <section class="album-img">
-        <img src="/assets/albums/circles.jpg" alt="" />
+        <img src="/assets/albums/circles.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Circles</li>
@@ -114,7 +117,7 @@
 
     <section class="album-card">
       <section class="album-img">
-        <img src="/assets/albums/flower-boy.jpg" alt="" />
+        <img src="/assets/albums/flower-boy.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Foreword ft. Rex Orange County</li>
@@ -145,7 +148,7 @@
 
     <section class="album-card">
       <section class="album-img">
-        <img src="/assets/albums/igor.jpg" alt="" />
+        <img src="/assets/albums/igor.webp" alt="" />
         <section class="album-list">
           <ol>
             <li>Igor’s Theme</li>
@@ -170,7 +173,6 @@
     </section>
   </section>
 </main>
-
 <style>
    @font-face {
         font-family: "Morganite-Black";
