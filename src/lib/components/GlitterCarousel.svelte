@@ -1,49 +1,190 @@
-<div>
-    <section>
-    <h1>Organisaties als opdrachtgever voor projecten, stages en afstudeerprojecten</h1>
-    <p>Vanaf het tweede jaar wordt bij projecten vaak samengewerkt met externe projectpartners. In de meeste gevallen komen projectpartners uit het netwerk van de bij het vak betrokken docenten, maar het komt ook voor dat ze worden aangedragen door lectoraten, kenniscentra, bedrijven, en de coördinator externe samenwerking.
-        
-        Studenten komen naast projectopdrachten ook door twee stageperiodes in aanraking met het werkveld. Er is een korte oriënterende stage van 10 weken aan het eind van het fundament waarin de studenten de in het fundament verworven competenties in de praktijk toetsen. Studenten werken in principe aan alle competenties, maar de nadruk ligt op vier competenties. Eén competentie, multidisciplinair samenwerken, is verplicht, de andere drie kiest de student zelf. Voor de vier competenties formuleren studenten zelf de leerdoelen. Tijdens de lange stage werken studenten aan de beroepsidentiteit en het (door)ontwikkelen van CMD-competenties. Bij de lange stage zijn de competenties multidisciplinair samenwerken en één van de vakgebied competenties verplicht. In totaal werken studenten aan tenminste vijf competenties.</p>
-</section>
+<main>
+    <div>
+    <div class="carousel">
+      <ul class="slides">
+        <input type="radio" name="radio-buttons" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img alt="place" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img alt="place" src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-3" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img alt="place" src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-2" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-1" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <div class="carousel-dots" id="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        </div>
+      </ul>
+    </div>
+  </div>
+</main>
 
-<section>
-    <h1>CMD Agency</h1>
-    <p>Hoewel de korte stage een belangrijke functie heeft in de beroepsvorming van studenten, geven bedrijven aan dat de periode erg kort is om zinvol te zijn. Daarnaast merkten we dat het voor sommige studenten minder toegevoegde waarde heeft. Bijvoorbeeld omdat ze al kennis hebben gemaakt met het bedrijfsleven tijdens de vooropleiding of omdat ze de ambitie hebben om als zelfstandige aan de slag te gaan. Voor deze studenten is CMD Agency opgericht. Studenten kunnen kiezen tussen de korte stage of in teams werken aan echte opdrachten van echte opdrachtgevers. Er is een sollicitatieprocedure waarbij gekeken wordt naar het vermogen om zelfstandig te werken, communicatieve vaardigheden en uiteraard inhoudelijke kennis en skills.
-        De teams zijn grotendeels zelfsturend en zelf verantwoordelijk voor planning en communicatie met de opdrachtgever. Ter ondersteuning van het project, krijgen de studenten een inleiding in SCRUM, daarna overleggen ze met de opdrachtgever die als Product Owner fungeert. Teams krijgen een teamcoach van CMD toegewezen én een individuele docentbegeleider. Verder zijn studentassistenten beschikbaar.</p>
-</section>
 
-<section>
-    <h1>gastcollege</h1>
-    <p>Naast projecten en stages worden regelmatig experts uit het vakgebied uitgenodigd om een gastcollege te verzorgen. Ook organiseren docenten ICONS: een lezingenreeks door kopstukken uit de industrie voor studenten, docenten en vakgenoten.</p>
-</section>
+  <style>
+    .carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
-<section>
-    <h1>Opleidingsadviesraad</h1>
-    <p>Een belangrijke schakel met het beroepenveld is de Opleidingsadviesraad (OAR). De OAR heeft een adviserende rol op strategisch (bijv. ontwikkelingen in het vakgebieden daarbuiten) en inhoudelijk gebied (bijv. eindkwalificaties van CMD studenten, invulling curriculum). Na de vorige accreditatie is, samen met docenten en de huidige leden, gekeken naar de opzet van de OAR, wat leidde tot een nieuwe vorm en aangepaste samenstelling. Voor wat betreft de samenstelling zijn strategische keuzes gemaakt. Van een aantal leden is afscheid genomen, daarvoor in de plaats zijn organisaties gekomen die meer aansluiten en die bij voorkeur affiniteit hebben met de kernwaarden van de HvA. De huidige samenstelling van de OAR is hier te bekijken. Er is nog ruimte voor 1 of 2, bij voorkeur non-profit, organisaties</p>
-</section>
+ul.slides {
+    display: block;
+    position: relative;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
 
-<section>
-    <h1>Partners in Education</h1>
-    <p>De wens van een aantal bedrijven om een meer structurele en langdurige samenwerking met CMD Amsterdam te hebben heeft geleid tot een nieuw initiatief: Partners in Education (PiE). De missie van PiE is om de samenwerking met (internationale) externe partijen en interne stakeholders op een professionele, efficiënte en duurzame wijze vorm te geven. We willen externe partijen (o.a. werkveld en onderwijspartners) laten zien dat wij (duurzame) samenwerking hoog op de agenda hebben staan. Door vanuit PiE organisatorische en administratieve ondersteuning te bieden aan interne stakeholders (o.a. docenten en medewerkers) krijgen zij meer tijd om inhoudelijk hun onderwijs vorm te geven</p>
-</section>
-</div>
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
 
 
-<style>
-    div{
-        scroll-snap-type: x mandatory;
-        overflow-x: scroll;
-        
+.slide-container { 
+    display: block; 
+}
 
-    }
-    section{
-        scroll-snap-align: center;
-        width: 500px;
-        height: 30em;
-        padding: 1em;
-        margin: 1em;
-        background-color: blanchedalmond;
-    }
+.slide-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
 
-    
-</style>
+.slide-image img {
+    width: auto;
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 100px;
+    line-height: 600px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 3s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3 {
+	opacity: 1;
+}
+
+main{
+    background-image: url(/assets/glitter.gif);
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+  </style>
+
